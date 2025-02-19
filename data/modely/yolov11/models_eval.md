@@ -33,10 +33,17 @@
 
 
 
-### :milky_way: ResNet
+### :milky_way: ResNet101
 
 - task: binary classification
 
 **Training**
 - Preprocessing steps: Resize (Stretch to 1280x960)
 - Augmentations: Outputs per training example: 3 (Flip: Horizontal, Vertical; Rotation: Between -18° and +18°)
+
+![image](https://github.com/user-attachments/assets/22ee9367-3d70-4867-a01e-549c3daf559a)
+
+**Evaluation**
+
+
+  

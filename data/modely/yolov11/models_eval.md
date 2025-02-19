@@ -1,6 +1,15 @@
 ## Dataset details
 ![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
+| Set          | Imgs w Meteor | Imgs Non-Meteor |     All     |
+| :----------- | :-----------: | :-------------: | -----------:| 
+| Train        |   4 129       | 1401            | 5 530       |
+| Valid        |   813         | 186             | 999         |
+| Test         |   599         | 47              | 646         |
+| :----------- | :-----------: | :-------------: | -----------:| 
+|              |   5 541       | 1 634           | 7 175       |
+
+
 ## Models
 ### :milky_way: yolov11
 
@@ -9,7 +18,7 @@
 **Training**
 - Preprocessing steps: Resize (Stretch to 1280x960); Grayscaled
 - Augmentations: Outputs per training example: 3 (Flip: Horizontal, Vertical; Rotation: Between -20° and +20°)
-- 
+  
 ![image](https://github.com/user-attachments/assets/28762d2b-dd6c-4899-9fc6-a73e83743b95)
 
 ![image](https://github.com/user-attachments/assets/a9b0b386-48e1-4861-b255-f8cde316394e)

@@ -32,6 +32,15 @@ W train set augmentatiom:
 
 **Evaluation**
 - threshold: conf > 0.31
+
+|              | Imgs w Meteor | Imgs Non-Meteor |     All          |
+| :----------- | :-----------: | :-------------: | -----------:     | 
+| Train        |   4 130       | 1400            | 5 530 (77%)      |
+| Valid        |   813         | 186             | 999  (14%)       |
+| Test         |   599         | 47              | 646  (9%)        |
+|              |   5 542       | 1 633           | 7 175            |
+
+
 - results: TP : 580/599 , TN : 23/47
 
 

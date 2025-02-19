@@ -33,15 +33,15 @@ W train set augmentatiom:
 **Evaluation**
 - threshold: conf > 0.31
 
-|              | Imgs w Meteor | Imgs Non-Meteor |     All          |
-| :----------- | :-----------: | :-------------: | -----------:     | 
-| Train        |   4 130       | 1400            | 5 530 (77%)      |
-| Valid        |   813         | 186             | 999  (14%)       |
-| Test         |   599         | 47              | 646  (9%)        |
-|              |   5 542       | 1 633           | 7 175            |
-
+| Ground Truth/Prediction | Meteors   | Non-Meteors   |
+|--------------------|-------------|-------------|
+| Meteors            | TP = 580    | FN = 19     |
+| Non Meteors        | FP = 24     | TN = 23     |
 
 - results: TP : 580/599 , TN : 23/47
+- Precision = TP / (TP + FP) = 0.9603
+- Recall = TP / (TP + FN) = 0.9683
+- F1 Score = 2 . (P . R) / (P + R) = 0.9643
 
 
 

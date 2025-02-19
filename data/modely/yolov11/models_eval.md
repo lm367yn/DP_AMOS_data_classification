@@ -8,7 +8,8 @@ Raw:
 | Test         |   599         | 47              | 646  (9%)        |
 |              |   5 541       | 1 634           | 7 175            |
 
-S augmentaciou trenovacky:
+W train set augmentatiom:
+
 ![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
 ## Models

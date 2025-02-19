@@ -1,6 +1,6 @@
 ## Dataset details
-![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
+Raw:
 | Set          | Imgs w Meteor | Imgs Non-Meteor |     All          |
 | :----------- | :-----------: | :-------------: | -----------:     | 
 | Train        |   4 129       | 1401            | 5 530 (77%)      |
@@ -8,9 +8,11 @@
 | Test         |   599         | 47              | 646  (9%)        |
 |              |   5 541       | 1 634           | 7 175            |
 
+S augmentaciou trenovacky:
+![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
 ## Models
-### :milky_way: yolov11
+### 1.) :milky_way: yolov11
 
 - task: object detection (0 - Meteor)
 
@@ -30,7 +32,7 @@
 
 
 
-### :milky_way: Vision Transformer (ViT)
+### 2.) :milky_way: Vision Transformer (ViT)
 
 - task: binary classification
 
@@ -45,7 +47,7 @@
 
 
 
-### :milky_way: ResNet101
+### 3.) :milky_way: ResNet101
 
 - task: binary classification
 

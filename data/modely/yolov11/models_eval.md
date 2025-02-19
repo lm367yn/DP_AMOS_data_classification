@@ -1,12 +1,12 @@
 ## Dataset details
 ![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
-| Set          | Imgs w Meteor | Imgs Non-Meteor |     All     |
-| :----------- | :-----------: | :-------------: | -----------:| 
-| Train        |   4 129       | 1401            | 5 530       |
-| Valid        |   813         | 186             | 999         |
-| Test         |   599         | 47              | 646         |
-|              |   5 541       | 1 634           | 7 175       |
+| Set          | Imgs w Meteor | Imgs Non-Meteor |     All          |
+| :----------- | :-----------: | :-------------: | -----------:     | 
+| Train        |   4 129       | 1401            | 5 530 (77%)      |
+| Valid        |   813         | 186             | 999  (14%)       |
+| Test         |   599         | 47              | 646  (9%)        |
+|              |   5 541       | 1 634           | 7 175            |
 
 
 ## Models

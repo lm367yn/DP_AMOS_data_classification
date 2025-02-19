@@ -9,7 +9,11 @@
 **Training**
 - Preprocessing steps: Resize (Stretch to 1280x960); Grayscaled
 - Augmentations: Outputs per training example: 3 (Flip: Horizontal, Vertical; Rotation: Between -20° and +20°)
+- 
 ![image](https://github.com/user-attachments/assets/28762d2b-dd6c-4899-9fc6-a73e83743b95)
+
+![image](https://github.com/user-attachments/assets/a9b0b386-48e1-4861-b255-f8cde316394e)
+
 
 
 **Evaluation**

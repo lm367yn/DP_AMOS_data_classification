@@ -31,7 +31,7 @@ W train set augmentatiom:
 
 
 **Evaluation**
-- threshold: conf > 0.31
+- threshold: confid > 0.31
 
 | Ground Truth/Prediction | Meteors   | Non-Meteors   |
 |--------------------|-------------|-------------|
@@ -44,23 +44,7 @@ W train set augmentatiom:
 - F1 Score = 2 . (P . R) / (P + R) = 0.9643
 
 
-
 ### 2.) :milky_way: Vision Transformer (ViT)
-
-- task: binary classification
-
-**Training**
-- Preprocessing steps: Resize (Stretch to 1280x960)
-- Augmentations: Outputs per training example: 3 (Flip: Horizontal, Vertical)
-
-![image](https://github.com/user-attachments/assets/123055a7-2cc9-48ac-838f-5be9db96507e)
-
-**Evaluation**
-![image](https://github.com/user-attachments/assets/e2e507ba-a921-4fd7-a7eb-a969fd59084d)
-
-
-
-### 3.) :milky_way: ResNet101
 
 - task: binary classification
 
@@ -72,9 +56,64 @@ W train set augmentatiom:
 
 **Evaluation**
 
-![image](https://github.com/user-attachments/assets/7e757e66-931d-437d-b180-8bb73ea701e6)
+- threshold: confid > 0.5
 
+| Ground Truth/Prediction | Meteors   | Non-Meteors   |
+|--------------------|-------------|-------------|
+| Meteors            | TP = 471    | FN = 128     |
+| Non Meteors        | FP = 22     | TN = 25     |
 
+- results: TP : 471/599 , TN : 25/47
+- Precision = TP / (TP + FP) = 0.9553
+- Recall = TP / (TP + FN) = 0.7863
+- F1 Score = 2 . (P . R) / (P + R) = 0.8626
 
+### 3.) :milky_way: ResNet50
 
-### 4.) :milky_way: Custom CNN, ResNet50 ...
+- task: binary classification
+
+**Training**
+- Preprocessing steps: Resize (Stretch to 1280x960); Grayscale: Applied
+- Augmentations: Outputs per training example: 4 (Flip: Horizontal, Vertical; Rotation: Between -18° and +18°)
+
+![image](https://github.com/user-attachments/assets/bc15400f-86c1-4251-9b1b-5a8dcf42f158)
+
+**Evaluation**
+
+- threshold: confid > 0.5
+
+| Ground Truth/Prediction | Meteors   | Non-Meteors   |
+|--------------------|-------------|-------------|
+| Meteors            | TP = 273    | FN = 326     |
+| Non Meteors        | FP = 8     | TN = 39     |
+
+- results: TP : 273/599 , TN : 39/47
+- Precision = TP / (TP + FP) = 0.9681
+- Recall = TP / (TP + FN) = 0.4558
+- F1 Score = 2 . (P . R) / (P + R) = 0.6198
+
+### 4.) :milky_way: ResNet101
+
+- task: binary classification
+
+**Training**
+- Preprocessing steps: Resize (Stretch to 1280x960); Auto-Adjust Contrast; Grayscale: Applied
+- Augmentations: Outputs per training example: 4 (Flip: Horizontal, Vertical; Rotation: Between -18° and +18°)
+
+![image](https://github.com/user-attachments/assets/63d69e21-be75-434d-b41c-a945d7de56c4)
+
+**Evaluation**
+
+- threshold: confid > 0.5
+
+| Ground Truth/Prediction | Meteors   | Non-Meteors   |
+|--------------------|-------------|-------------|
+| Meteors            | TP = 202    | FN = 397     |
+| Non Meteors        | FP = 9     | TN = 38     |
+
+- results: TP : 202/599 , TN : 38/47
+- Precision = TP / (TP + FP) = 0.9573
+- Recall = TP / (TP + FN) = 0.3372
+- F1 Score = 2 . (P . R) / (P + R) = 0.4987
+
+Custom CNN, 

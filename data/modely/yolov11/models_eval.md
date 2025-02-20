@@ -3,7 +3,7 @@
 
 
 **Split**
-Raw:
+
 | Set          | Imgs w Meteor | Imgs Non-Meteor |     All          |
 | :----------- | :-----------: | :-------------: | -----------:     | 
 | Train        |   4 130       | 1400            | 5 530 (77%)      |
@@ -11,12 +11,25 @@ Raw:
 | Test         |   599         | 47              | 646  (9%)        |
 |              |   5 542       | 1 633           | 7 175            |
 
-W train set augmentatiom:
-
-![image](https://github.com/user-attachments/assets/075e4ea0-7ac6-48ff-82ed-fe702faba88b)
 
 ## Models
-### 1.) :milky_way: yolov11
+### 1.) :milky_way: Custom CNN
+
+- task: binary classification
+
+- stavba:
+![image](https://github.com/user-attachments/assets/68802c75-cd73-4e36-a1d0-455c631ccb52)
+
+**Training**
+
+![image](https://github.com/user-attachments/assets/be8bdf66-5d62-4320-9e5d-a974e9aaa57d)
+
+
+**Evaluation**
+
+
+
+### 2.) :milky_way: yolov11
 
 - task: object detection (0 - Meteor)
 
@@ -44,7 +57,7 @@ W train set augmentatiom:
 - F1 Score = 2 . (P . R) / (P + R) = 0.9643
 
 
-### 2.) :milky_way: Vision Transformer (ViT)
+### 3.) :milky_way: Vision Transformer (ViT)
 
 - task: binary classification
 
@@ -68,7 +81,7 @@ W train set augmentatiom:
 - Recall = TP / (TP + FN) = 0.7863
 - F1 Score = 2 . (P . R) / (P + R) = 0.8626
 
-### 3.) :milky_way: ResNet50
+### 4.) :milky_way: ResNet50
 
 - task: binary classification
 
@@ -92,7 +105,7 @@ W train set augmentatiom:
 - Recall = TP / (TP + FN) = 0.4558
 - F1 Score = 2 . (P . R) / (P + R) = 0.6198
 
-### 4.) :milky_way: ResNet101
+### 5.) :milky_way: ResNet101
 
 - task: binary classification
 
@@ -115,5 +128,7 @@ W train set augmentatiom:
 - Precision = TP / (TP + FP) = 0.9573
 - Recall = TP / (TP + FN) = 0.3372
 - F1 Score = 2 . (P . R) / (P + R) = 0.4987
+ 
+### 5.) :milky_way: convnext_small
 
-Custom CNN, 
+- task: binary classification

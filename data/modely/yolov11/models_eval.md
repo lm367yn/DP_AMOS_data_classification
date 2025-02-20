@@ -1,8 +1,23 @@
 ## Dataset details
 
+| Kategória objektu            | Počet obrázkov |
+|------------------------------|----------------|
+| Búrky                        | 202            |
+| Lietadlá                     | 229            |
+| Oblaky                       | 21             |
+| Satelity - blikajúce         | 78             |
+| Satelity - dlhé              | 25             |
+| Satelity - krátke            | 57             |
+| Sprites                      | 429            |
+| Svetlá horizont              | 723            |
+| Vtáky, netopiere, hmyz       | 218            |
+| Rôzne                        | 379            |
+| **Celkom Nemeteory**         | **2434**       |
+| Meteory                      | 6309           |
 
 
-**Split**
+
+**Train, Valid, Test Split**
 
 | Set          | Imgs w Meteor | Imgs Non-Meteor |     All          |
 | :----------- | :-----------: | :-------------: | -----------:     | 

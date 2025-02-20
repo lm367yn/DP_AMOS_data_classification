@@ -13,6 +13,9 @@
 | Vtáky, netopiere, hmyz       | 218            |
 | Rôzne                        | 379            |
 | **Celkom Nemeteory**         | **2434**       |
+
+| Kategória objektu            | Počet obrázkov |
+|------------------------------|----------------|
 | Meteory                      | 6309           |
 
 

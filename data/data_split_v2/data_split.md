@@ -16,7 +16,7 @@
 
 | Kategória objektu            | Počet obrázkov |
 |------------------------------|----------------|
-| Meteory                      | 6 749           |
+| Meteory                      | 6 750          |
 
 
 

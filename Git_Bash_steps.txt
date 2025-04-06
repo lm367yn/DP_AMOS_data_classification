@@ -1,0 +1,33 @@
+Git Bash steps:
+__________________________________________________________________
+
+🔐 1. Over, že si v správnom repozitári
+
+cd /c/Users/livia/Desktop/DP_AMOS_data_classification
+git status
+
+🔐 Ak si ešte repozitár nemáš naklonovaný a chceš ho „prihlásiť“ lokálne, použiješ:
+
+git clone git@github.com:lm367yn/DP_AMOS_data_classification.git
+
+__________________________________________________________________
+🔌 2. Over pripojenie k GitHub cez SSH
+
+ssh -T git@github.com
+
+__________________________________________________________________
+🌐 3. Over, že máš správne nastavený remote (napojenie na tvoju GitHub repo)
+
+git remote -v
+
+__________________________________________________________________
+📦 4. Nahraj zmeny
+
+git add -A
+git commit -m "Tvoj popis zmeny"
+git push origin main
+
+__________________________________________________________________
+📦 5. Stiahni zmeny
+
+git pull origin main

@@ -1,0 +1,15 @@
+cd C:\Users\ago\Desktop\TUKE_AMOS  
+
+docker build -t meteordetection .
+
+#################################
+
+ensemble model: docker run --rm -v "C:/Users/ago/Desktop/TUKE_AMOS:/app" --entrypoint python meteordetection process_images.py 
+convnext-s model: docker run --rm -v "C:/Users/ago/Desktop/TUKE_AMOS:/app" --entrypoint python meteordetection process_images_convnexts.py
+yolov11 model: docker run --rm -v "C:/Users/ago/Desktop/TUKE_AMOS:/app" --entrypoint python meteordetection process_images_yolo.py 
+
+#################################
+nove:
+docker run --rm -v "C:/Users/ago/Desktop/TUKE_AMOS:/app" --entrypoint python meteordetection process_images.py --original_input_dir "C:/Users/ago/Desktop/TUKE_AMOS/images/AMOS_DATA_20250408"
+
+

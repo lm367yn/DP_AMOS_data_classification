@@ -12,7 +12,7 @@ Snímky sú rozdelené do kategórií na základe typu zachytávajúcich objekto
 
 - **Snímky bez výskytu meteoru**
 
-![Ukazka AMOS snimky](.assets/obr_priklad_AMOS_snimky.png)
+![Ukažka AMOS snimky](.assets/obr_priklad_AMOS_snimky.png)
 
 ## 📁 Štruktúra adresárov:
 

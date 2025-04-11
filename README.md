@@ -12,7 +12,7 @@ Snímky sú rozdelené do kategórií na základe typu zachytávajúcich objekto
 
 - **Snímky bez výskytu meteoru**
 
-![alt text](obr_priklad_AMOS_snimky-1.png)
+![Ukazka AMOS snimky](.assets/obr_priklad_AMOS_snimky.png)
 
 ## 📁 Štruktúra adresárov:
 
@@ -49,7 +49,7 @@ Finálne riešenie využíva **vážený kombinovaný model** pozostávajúci z 
 - Histogram distribúcií pravdepodobností  
 - Vizualizácie pomocou **t-SNE** pre vektorové reprezentácie + zhlukovanie
 
-![alt text](obr_vyhodnotenie_ensemble_model_copy.png)
+![Vyhodnotenie finalneho kombinovaneho modelu](.assets/obr_vyhodnotenie_ensemble_model.png)
 
 ## Poznámky  
 - Modelovanie sa uskutočnilo školskom servri na GPU s 8 GB VRAM  

@@ -1,1 +1,3 @@
 *.pth
+project/deploy/Radmin_VPN.txt
+project/deploy/models/convnext_model_legacy.pth
